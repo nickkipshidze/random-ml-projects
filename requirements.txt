@@ -1,0 +1,10 @@
+jupyter
+scikit-learn
+numpy
+pandas
+matplotlib
+seaborn
+joblib
+torch
+torchvision
+torchaudio
