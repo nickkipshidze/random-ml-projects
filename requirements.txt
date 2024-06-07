@@ -8,3 +8,4 @@ joblib
 torch
 torchvision
 torchaudio
+torchmetrics
