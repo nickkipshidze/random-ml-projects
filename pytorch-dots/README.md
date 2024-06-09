@@ -32,6 +32,22 @@ This is what a good, trained model's decision boundary should have looked like:
 
 It has much smoother lines, much lighter neural network, with less layers and flexibility. Even though the accuracy on the training dataset is *98.62%*, we still manage to get *99.00%* accuracy on the testing dataset.
 
+## Multi-class classification example
+
+This one is fun. We got us here some blobs. Clusters of colored dots:
+
+![Blobs dataset](./plots/blobs-dataset.png)
+
+Now, we can fit this data to a linear model. But it will struggle a bit since we have 5 classes: purple, blue, green, yellow and red. This is what we get when fitting this data to a linear model:
+
+![Linear blobs model](./plots/blobs-model-linear.png)
+
+Kinda messy. Although it was trained with 1000 epochs. But trust me, it doesn't get any better with more epochs. Anyway... I made a non-linear model. I trained it for 5000 epochs and got this:
+
+![Non-linear blobs model](./plots/blobs-model-non-linear.png)
+
+And this is slightly better. Although considering the complexity of this non-linear model, I would say its not worthit to use such model for this task, stick to linear, simple models for simple tasks.
+
 ## Tech stack
 
 - **PyTorch** - Main neural network tool
