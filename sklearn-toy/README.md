@@ -22,7 +22,7 @@ Here's a classic ML exercise. Build a model that can classify images of handwrit
 
 I used Matplotlib to plot the pixel values to a grid, so that we can visualize the data. What we get is a rough representation of a handwritten digit. It looks like that because its an 8 by 8 image, that means it has only 64 pixels. There's not a lot you can do with just 64 pixels.
 
-Regardless, our trained model was able to classify the images with `94.00%` accuracy, and also get a pretty good looking confusion matrix:
+Regardless, our trained model was able to classify the images with *94.00%* accuracy, and also get a pretty good looking confusion matrix:
 
 ![Digits model confusion matrix](./plots/digits-model-confmat.png)
 
