@@ -27,6 +27,7 @@ This repository contains a collection of AI projects using various datasets and 
 | **Moons Classification**     | PyTorch      | Identifying moon-shaped clusters in data.      | [moons.ipynb](./pytorch-dots/moons.ipynb) |
 | **Moons Overfit**            | PyTorch      | Overfitting example with moon data.            | [moons-overfit.ipynb](./pytorch-dots/moons-overfit.ipynb) |
 | **Iris Dataset Model**       | SciKit-learn | Classic Iris dataset classification.           | [iris.ipynb](./sklearn-toy/iris.ipynb) |
+| **8x8 Digits Classification**| SciKit-learn | 8 by 8 resolution images of handwritten digits.| [digits.ipynb](./sklearn-toy/digits.ipynb) |
 
 ## Installation
 
