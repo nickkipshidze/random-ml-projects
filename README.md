@@ -54,7 +54,21 @@ OBVIOUSLY. From there you can open Jupyter Notebook in your browser and look aro
 
 ## Contributing
 
+![License](https://img.shields.io/badge/license-DONT%20TOUCH%20MY%20SHIT-yellow)
+![Repo size](https://img.shields.io/github/repo-size/nickkipshidze/random-ml-projects)
+![Code size](https://img.shields.io/github/languages/code-size/nickkipshidze/random-ml-projects)
+![Contributors](https://img.shields.io/github/contributors/nickkipshidze/random-ml-projects)
+![Last commit](https://img.shields.io/github/last-commit/nickkipshidze/random-ml-projects)
+
+![Stars](https://img.shields.io/github/stars/nickkipshidze/random-ml-projects)
+![Watchers](https://img.shields.io/github/watchers/nickkipshidze/random-ml-projects)
+
 Contributions are welcome! Please open an issue or submit a pull request.
+
+<h6>
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=nickkipshidze&repo=random-ml-projects&theme=react&hide_border=true&show_owner=true" height=160>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nickkipshidze&repo=random-ml-projects&theme=react&hide_border=true&layout=compact" height=160>
+</h6>
 
 ## License
 
