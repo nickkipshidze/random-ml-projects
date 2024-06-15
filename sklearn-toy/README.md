@@ -27,3 +27,11 @@ Regardless, our trained model was able to classify the images with *94.00%* accu
 ![Digits model confusion matrix](./plots/digits-model-confmat.png)
 
 What this confusion matrix is show, is that our model is predicting the true label almost every time. That is why we can see a sort of diagonal line.
+
+## Wine recognition
+
+Recognise wine class based on it's attribute information such as malic asic, total phenols, hue and color intensity, and more. By simply using the `RandomForestClassifer` estimator to fit the dataset, we can predict the classes almost flawlessly.
+
+Here's a confusion matrix of our trained model:
+
+![Wine model confusion matrix](./plots/wine-model-confmat.png)
