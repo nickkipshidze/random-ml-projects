@@ -51,7 +51,7 @@ Navigate to the projects directory and start the Jupyter Notebook server with th
 jupyter notebook
 ```
 
-OBVIOUSLY. From there you can open Jupyter Notebook in your browser and look around in the repository, check out the `.ipynb` files. Or you can just ignore all that and use a VSCode extension instead. The choice is yours.
+OBVIOUSLY. From there you can open Jupyter Notebook in your browser and look around in the repository, check out the `.ipynb` files. Or you can just ignore all that and use a [VSCode extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) instead. The choice is yours.
 
 ## Contributing
 
