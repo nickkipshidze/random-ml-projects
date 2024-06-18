@@ -35,3 +35,15 @@ Recognise wine class based on it's attribute information such as malic asic, tot
 Here's a confusion matrix of our trained model:
 
 ![Wine model confusion matrix](./plots/wine-model-confmat.png)
+
+## Breast cancer diagnosis
+
+Using SciKit-learn's **breast cancer wisconsin (diagnostic) dataset** with 569 instances and 30 numeric attributes, such as radius, texturer, perimeter area, etc. I used the `RandomForestClassifier` estimator to fit the dataset. The trained classifier can predict right label with *96.00%* accuracy.
+
+Here's a confusion matrix of our trained model:
+
+![Cancer model confusion matrix](./plots/cancer-model-confmat.png)
+
+Since this is a binary classification problem (meaning that we have only two possible labels, one or zero) we can plot an ROC curve:
+
+![Cancer model ROC curve](./plots/cancer-model-roc.png)
