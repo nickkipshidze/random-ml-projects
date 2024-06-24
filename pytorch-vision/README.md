@@ -16,6 +16,14 @@ The model I build has 2 linear layers, an input layer of 784 neurons, and an out
 
 I've truncated the input layer, so that you don't have to see all of the 784 neurons. No need to thank me. The trained model can classify a handwritten number with *93.75%* accuracy. Which is very good for a linear neural network.
 
+## Non-linear neural network
+
+I have built a similar neural network to the multi-layer perceptron to classify handwritten digits from the MNIST dataset, but I also threw in some ReLU activation functions. Although the result is disappointing. Obviously this dataset doesn't require nonlinearity, because of that, the non-linear model performs just as accurately as the linear mode. With **93.75%** accuracy.
+
+I also made this simple visual representation of the neural network.
+
+![Visual non-linear](./plots/non-linear-graph-mnist.png)
+
 ## Tech stack
 
 - **PyTorch** - Main neural network tool
