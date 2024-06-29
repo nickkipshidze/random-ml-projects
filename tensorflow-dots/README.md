@@ -28,6 +28,18 @@ I have built a TensorFlow model to classify the dots color based on it's positio
 
 As you can see by the graphs on the right. The loss value goes down over the iterations, and accuracy goes up with the training time. During training, on last epoch TensorFlow wrote `accuracy: 0.9896 - loss: 0.2139` which means our model performed at `98.96%` accuracy on the training data. Which is good!
 
+## Moons model
+
+This is an another binary classification problem. Here we have, once again, a non-linear dataset from SciKit-learn's toy datasets. A moons dataset, or as I like to call it, spirals! The graph looks like this:
+
+![Moons dataset](./plots/moons-dataset.png)
+
+I built a simple TensorFlow sequential model which consists of four layers. The hidden layers both have 10 neurons, so 20 hidden neurons total, the first hidden layers uses the SoftPlus activation function, and the second hidden layer uses the leaky ReLU activation function. Finally we have the Sigmoid activation function at the output. The training statistics and the decision boundary plots looks like this:
+
+![Moons model stats](./plots/moons-model-all.png)
+
+The model was trained on only 50 epochs and it is very lightweight. The results are as expected, not perfect, but good enough.
+
 ## Tech stack
 
 - **TensorFlow** - Main neural network tool
