@@ -33,6 +33,7 @@ This repository contains a collection of AI projects using various datasets and 
 | **MNIST Classification MLP** | PyTorch      | Classifying MNIST digits with an MLP.          | [linear-mnist.ipynb](./pytorch-vision/linear-mnist.ipynb) |
 | **MNIST Classification**     | PyTorch      | Classifying MNIST digits with an non-linear NN.| [non-linear-mnist.ipynb](./pytorch-vision/non-linear-mnist.ipynb) |
 | **Blobs Classification**     | TensorFlow   | Simple blob classification using TensorFlow.   | [blobs.ipynb](./tensorflow-dots/blobs.ipynb) |
+| **Moons Classification**     | TensorFlow   | Identifying moon-shaped clusters in data.      | [moons.ipynb](./tensorflow-dots/moons.ipynb) |
 
 ## Installation
 
