@@ -40,6 +40,18 @@ I built a simple TensorFlow sequential model which consists of four layers. The 
 
 The model was trained on only 50 epochs and it is very lightweight. The results are as expected, not perfect, but good enough.
 
+## Spirals model
+
+This is a multiclass classification problem. A more complex version of the moons dataset, I call it **the dataway galaxy**. And the plot looks like this:
+
+![Spirals dataset](./plots/spirals-dataset.png)
+
+I have built a non-linear model with TensorFlow, which consists of 5 layers. It has 3 hidden layers with 10 neurons each and SoftMax, SoftPlus and leaky ReLU activation functions respectively. I trained the model for 100 iterations and the results were pretty good.
+
+![Spirals model stats](./plots/spirals-model-all.png)
+
+Although it still makes a lot of mistakes. It has succeeded to fit the spiral shaped pattern. Which is also good!
+
 ## Tech stack
 
 - **TensorFlow** - Main neural network tool
