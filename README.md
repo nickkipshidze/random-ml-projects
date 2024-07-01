@@ -26,6 +26,7 @@ This repository contains a collection of AI projects using various datasets and 
 | **Circles Classification**   | PyTorch      | Classifying circular data points with PyTorch. | [circles.ipynb](./pytorch-dots/circles.ipynb) |
 | **Moons Classification**     | PyTorch      | Identifying moon-shaped clusters in data.      | [moons.ipynb](./pytorch-dots/moons.ipynb) |
 | **Moons Overfit**            | PyTorch      | Overfitting example with moon data.            | [moons-overfit.ipynb](./pytorch-dots/moons-overfit.ipynb) |
+| **Spirals Classification**   | PyTorch      | Classifying spiral-shaped data with PyTorch.   | [spirals.ipynb](./pytorch-dots/spirals.ipynb) |
 | **Iris Dataset Model**       | SciKit-learn | Classic Iris dataset classification.           | [iris.ipynb](./sklearn-toy/iris.ipynb) |
 | **Wine Classification**      | SciKit-learn | Classify wine based on it's features.          | [wine.ipynb](./sklearn-toy/wine.ipynb) |
 | **8x8 Digits Classification**| SciKit-learn | 8 by 8 resolution images of handwritten digits.| [digits.ipynb](./sklearn-toy/digits.ipynb) |
