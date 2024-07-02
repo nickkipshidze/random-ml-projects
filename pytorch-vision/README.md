@@ -24,6 +24,20 @@ I also made this simple visual representation of the neural network.
 
 ![Visual non-linear](./plots/non-linear-graph-mnist.png)
 
+## Fashion MNIST model
+
+Fashion MNIST is just like the handwritten MNIST numbers dataset, but instead of numbers, we got clothes. Here's a sample from the dataset:
+
+![Fashion MNIST sample](./plots/fashion-sample.png)
+
+As you can see, there is a lot of clothes. It would be very hard and demanding to use a linear MLP for this task. So instead I choose to use a CNN. A convolutional neural network. I used TinyVGG architecture as a reference and built a model that can classify with *88.43%* accuracy. Which is not that bad.
+
+I also made a confusion matrix plot for the model and here's how it is:
+
+![Fashion MNIST model confusion matrix](./plots/fashion-model-confmat.png)
+
+Class names on the x-axis are overlapping... but blame SciKit-learn for that, I used their helper function.
+
 ## Tech stack
 
 - **PyTorch** - Main neural network tool
