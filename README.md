@@ -29,6 +29,7 @@ This repository contains a collection of AI projects using various datasets and 
 | **Moons Classification**     | PyTorch      | Identifying moon-shaped clusters in data.      | [moons.ipynb](./pytorch-dots/moons.ipynb) |
 | **Moons Overfit**            | PyTorch      | Overfitting example with moon data.            | [moons-overfit.ipynb](./pytorch-dots/moons-overfit.ipynb) |
 | **Spirals Classification**   | PyTorch      | Classifying spiral-shaped data with PyTorch.   | [spirals.ipynb](./pytorch-dots/spirals.ipynb) |
+| **Quantiles Classification** | PyTorch      | Classifying gaussian quantiles dataset.        | [quantiles.ipynb](./pytorch-dots/quantiles.ipynb) |
 | **Iris Dataset Model**       | SciKit-learn | Classic Iris dataset classification.           | [iris.ipynb](./sklearn-toy/iris.ipynb) |
 | **Wine Classification**      | SciKit-learn | Classify wine based on it's features.          | [wine.ipynb](./sklearn-toy/wine.ipynb) |
 | **8x8 Digits Classification**| SciKit-learn | 8 by 8 resolution images of handwritten digits.| [digits.ipynb](./sklearn-toy/digits.ipynb) |
@@ -40,6 +41,7 @@ This repository contains a collection of AI projects using various datasets and 
 | **Circles Classification**   | TensorFlow   | Classify circular data points with TensorFlow. | [circles.ipynb](./tensorflow-dots/circles.ipynb) |
 | **Moons Classification**     | TensorFlow   | Identifying moon-shaped clusters in data.      | [moons.ipynb](./tensorflow-dots/moons.ipynb) |
 | **Spirals Classification**   | TensorFlow   | Classifying spiral-shaped data points.         | [spirals.ipynb](./tensorflow-dots/spirals.ipynb) |
+| **Quantiles Classification** | TensorFlow   | Classifying gaussian quantiles dataset.        | [quantiles.ipynb](./tensorflow-dots/quantiles.ipynb) |
 
 ## Installation
 
